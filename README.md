@@ -11,10 +11,7 @@ Dieses Projekt nutzt den Twin Delayed Deep Deterministic Policy Gradient (TD3) A
 
 ## Hauptkomponenten
 
-- **Actor-Netzwerk**: Eine lineare Schicht mit nicht-negativen Gewichten, die die PID-Gewinne repräsentiert. ->
-  \[
-  u = \sum_{j=1}^3 x_j \cdot w_{1j} = x_1 \cdot K_p + x_2 \cdot K_i + x_3 \cdot K_d
-  \]
+- **Actor-Netzwerk**: Eine lineare Schicht mit nicht-negativen Gewichten, die die PID-Gewinne repräsentiert. ->  x1 * Kp + x2 * Ki + x3 * Kd + 0
 - **Critic-Netzwerk**: Ein Zwillingsnetzwerk, das Q-Werte für Zustands-Aktions-Paare schätzt.
 - **Replay Buffer**: Speichert Erfahrungen für das Training der Netzwerke.
 - **Trainingsloop**: Führt Episoden mit den aktuellen PID-Gewinnen durch, sammelt Erfahrungen und aktualisiert die Netzwerke mit TD3.
