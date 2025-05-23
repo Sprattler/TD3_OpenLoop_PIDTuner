@@ -2,6 +2,7 @@
 # TD3_PIDTuner
  https://colab.research.google.com/drive/1QB8XaZrV4zqNe3CXjNnNrL9vJrng7IkW?usp=sharing
 # Pendulum PID Tuning with TD3
+![-](https://github.com/user-attachments/assets/94717848-d618-4f10-a14e-939a4975a2a1)
 
 Dieses Projekt nutzt den Twin Delayed Deep Deterministic Policy Gradient (TD3) Algorithmus, um die Parameter eines PID-Reglers für eine simulierte Pendelumgebung zu bestimmen. Ziel ist es, Optimale PID (Kp, Ki, Kd) Faktoren zu ermitteln.
 ## Übersicht
